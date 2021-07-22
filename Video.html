@@ -1,7 +1,13 @@
 <script>
-alert(Notification.permission)
+//lert(Notification.permission)
 if(Notification.permission == "granted"){
 //Notification.requestPermission().then(permission => alert("yes"))
-alert("y")
+sn();
+}
+function sn(){
+var n = new Notification("hello",{
+body: "5"
+
+})
 }
 </script>
