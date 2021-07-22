@@ -1,6 +1,6 @@
 <script>
 alert(Notification.permission)
-if(Notification.permission == "default"){
+if(Notification.permission == "granted"){
 Notification.requestPermission().then(permission => alert("yes"));
 }
 </script>
